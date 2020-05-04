@@ -13,12 +13,17 @@ class cameraslider_gui(QtWidgets.QMainWindow, cameraslider_design):
 
         self.qt_actionConfiguration.triggered.connect(self.switchToConnectionConfiguration)
         self.qt_actionManual.triggered.connect(self.switchToModeManual)
-        self.qt_dial_velocity.valueChanged.connect(self.valueChangeManualVelocity)
+        self.qt_dial_transVel.valueChanged.connect(self.valueChangeManualTransVel)
+        self.qt_dial_rotVel.valueChanged.connect(self.valueChangeManualRotVel)
         self.qt_sl_transPos.valueChanged.connect(self.valueChangeManualTransPos)
         self.qt_dial_rotPos.valueChanged.connect(self.valueChangeManualRotPos)
+        self.qt_pb_startSlider.clicked.connect(self.startSliderCurrentSettings)
 
-    def valueChangeManualVelocity(self):
-        self.qt_lbl_velocity.setText(str(self.qt_dial_velocity.value()) + ' rpm')
+    def valueChangeManualTransVel(self):
+        self.qt_lbl_transVelCurrent.setText(str(self.qt_dial_transVel.value()) + ' rpm')
+
+    def valueChangeManualRotVel(self):
+        self.qt_lbl_rotVelCurrent.setText(str(self.qt_dial_rotVel.value()) + ' rpm')
 
     def valueChangeManualTransPos(self):
         self.qt_lbl_transPosCurrent.setText(str(self.qt_sl_transPos.value()) + ' mm')
@@ -31,6 +36,12 @@ class cameraslider_gui(QtWidgets.QMainWindow, cameraslider_design):
 
     def switchToModeManual(self):
         self.qt_stackedWidget.setCurrentIndex(1)
+
+    def startSliderCurrentSettings(self):
+        if self.qt_pb_startSlider.isChecked() == True:
+            self.qt_pb_startSlider.setText('Stop')
+        else:
+            self.qt_pb_startSlider.setText('Run')
 
 if __name__ == "__main__":
     app = QtWidgets.QApplication([])
