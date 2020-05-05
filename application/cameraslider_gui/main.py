@@ -5,6 +5,8 @@ import os
 from PyQt5 import QtWidgets, QtCore, QtGui, uic
 from cameraslider_design import cameraslider_design
 
+# test
+
 class cameraslider_gui(QtWidgets.QMainWindow, cameraslider_design):
     def __init__(self, path):
         self.path = path
