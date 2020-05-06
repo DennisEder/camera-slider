@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 4.12.0, 2020-05-04T21:13:57. -->
+<!-- Written by QtCreator 4.12.0, 2020-05-06T21:30:26. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -155,12 +155,12 @@
     </valuelist>
     <value type="int" key="PE.EnvironmentAspect.Base">2</value>
     <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">main</value>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">PythonEditor.RunConfiguration.C:/Users/Dennis Eder/Desktop/Dennis/Programmierung/40_Raspberry Pi/00_camera_slider/application/cameraslider_gui/main.py</value>
-    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">C:/Users/Dennis Eder/Desktop/Dennis/Programmierung/40_Raspberry Pi/00_camera_slider/application/cameraslider_gui/main.py</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">main2</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">PythonEditor.RunConfiguration.C:/Users/Dennis Eder/Desktop/Dennis/Programmierung/40_Raspberry Pi/00_camera_slider/camera-slider/application/cameraslider_gui/main.py</value>
+    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">C:/Users/Dennis Eder/Desktop/Dennis/Programmierung/40_Raspberry Pi/00_camera_slider/camera-slider/application/cameraslider_gui/main.py</value>
     <value type="bool" key="PythonEditor.RunConfiguation.Buffered">false</value>
-    <value type="QString" key="PythonEditor.RunConfiguation.Interpreter">{23b3eb5a-6a92-4e10-a698-d09b4f7870a9}</value>
-    <value type="QString" key="PythonEditor.RunConfiguation.Script">C:\Users\Dennis Eder\Desktop\Dennis\Programmierung\40_Raspberry Pi\00_camera_slider\application\cameraslider_gui\main.py</value>
+    <value type="QString" key="PythonEditor.RunConfiguation.Interpreter">{f1267c6c-48ee-4af6-92c4-e9009beecb59}</value>
+    <value type="QString" key="PythonEditor.RunConfiguation.Script">C:\Users\Dennis Eder\Desktop\Dennis\Programmierung\40_Raspberry Pi\00_camera_slider\camera-slider\application\cameraslider_gui\main.py</value>
     <value type="QString" key="RunConfiguration.Arguments"></value>
     <value type="bool" key="RunConfiguration.Arguments.multi">false</value>
     <value type="QString" key="RunConfiguration.OverrideDebuggerStartup"></value>
@@ -232,12 +232,12 @@
     </valuelist>
     <value type="int" key="PE.EnvironmentAspect.Base">2</value>
     <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">cameraslider_design</value>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">PythonEditor.RunConfiguration.C:/Users/Dennis Eder/Desktop/Dennis/Programmierung/40_Raspberry Pi/00_camera_slider/application/cameraslider_gui/cameraslider_design.py</value>
-    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">C:/Users/Dennis Eder/Desktop/Dennis/Programmierung/40_Raspberry Pi/00_camera_slider/application/cameraslider_gui/cameraslider_design.py</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">cameraslider_design2</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">PythonEditor.RunConfiguration.C:/Users/Dennis Eder/Desktop/Dennis/Programmierung/40_Raspberry Pi/00_camera_slider/camera-slider/application/cameraslider_gui/cameraslider_design.py</value>
+    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">C:/Users/Dennis Eder/Desktop/Dennis/Programmierung/40_Raspberry Pi/00_camera_slider/camera-slider/application/cameraslider_gui/cameraslider_design.py</value>
     <value type="bool" key="PythonEditor.RunConfiguation.Buffered">false</value>
     <value type="QString" key="PythonEditor.RunConfiguation.Interpreter"></value>
-    <value type="QString" key="PythonEditor.RunConfiguation.Script">C:\Users\Dennis Eder\Desktop\Dennis\Programmierung\40_Raspberry Pi\00_camera_slider\application\cameraslider_gui\cameraslider_design.py</value>
+    <value type="QString" key="PythonEditor.RunConfiguation.Script">C:\Users\Dennis Eder\Desktop\Dennis\Programmierung\40_Raspberry Pi\00_camera_slider\camera-slider\application\cameraslider_gui\cameraslider_design.py</value>
     <value type="QString" key="RunConfiguration.Arguments"></value>
     <value type="bool" key="RunConfiguration.Arguments.multi">false</value>
     <value type="QString" key="RunConfiguration.OverrideDebuggerStartup"></value>
