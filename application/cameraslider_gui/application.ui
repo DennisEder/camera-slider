@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1061</width>
-    <height>646</height>
+    <width>855</width>
+    <height>602</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -91,7 +91,7 @@
          <string notr="true">background-color: rgb(30, 39, 46);</string>
         </property>
         <property name="currentIndex">
-         <number>0</number>
+         <number>1</number>
         </property>
         <widget class="QWidget" name="qt_pageConfiguration">
          <property name="maximumSize">
@@ -375,7 +375,7 @@ p, li { white-space: pre-wrap; }
            <height>569</height>
           </size>
          </property>
-         <layout class="QGridLayout" name="gridLayout_7" rowstretch="6,6,0,2,0" columnstretch="5">
+         <layout class="QGridLayout" name="gridLayout_7" rowstretch="6,6,0,2" columnstretch="5">
           <item row="1" column="0">
            <widget class="QWidget" name="qt_rectangle_position" native="true">
             <property name="styleSheet">
@@ -385,7 +385,7 @@ p, li { white-space: pre-wrap; }
 	background-color: rgb(47, 54, 64);
 }</string>
             </property>
-            <layout class="QGridLayout" name="gridLayout_8">
+            <layout class="QGridLayout" name="gridLayout_8" rowstretch="2,2,3" columnstretch="3,2,3,2">
              <item row="2" column="2">
               <widget class="QDial" name="qt_dial_rotVel">
                <property name="styleSheet">
@@ -510,7 +510,7 @@ background-color: rgb(65, 143, 140);
 	background-color: rgb(47, 54, 64);
 }</string>
             </property>
-            <layout class="QGridLayout" name="gridLayout_2">
+            <layout class="QGridLayout" name="gridLayout_2" rowstretch="2,2,3" columnstretch="3,2,3,2">
              <item row="2" column="1">
               <widget class="QLabel" name="qt_lbl_transPosCurrent">
                <property name="sizePolicy">
@@ -607,74 +607,6 @@ background-color: rgb(65, 143, 140);
                </property>
               </widget>
              </item>
-             <item row="2" column="0">
-              <widget class="QSlider" name="qt_sl_transPos">
-               <property name="sizePolicy">
-                <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
-                 <horstretch>0</horstretch>
-                 <verstretch>10</verstretch>
-                </sizepolicy>
-               </property>
-               <property name="minimumSize">
-                <size>
-                 <width>40</width>
-                 <height>20</height>
-                </size>
-               </property>
-               <property name="sizeIncrement">
-                <size>
-                 <width>0</width>
-                 <height>0</height>
-                </size>
-               </property>
-               <property name="styleSheet">
-                <string notr="true">QSlider{
-	background-color: rgb(47, 54, 64);
-}
-QSlider::handle:horizontal{
-	background-color: rgb(56, 173, 169);
-;}</string>
-               </property>
-               <property name="minimum">
-                <number>-250</number>
-               </property>
-               <property name="maximum">
-                <number>250</number>
-               </property>
-               <property name="orientation">
-                <enum>Qt::Horizontal</enum>
-               </property>
-              </widget>
-             </item>
-             <item row="2" column="2">
-              <widget class="QDial" name="qt_dial_rotPos">
-               <property name="sizePolicy">
-                <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
-                 <horstretch>0</horstretch>
-                 <verstretch>10</verstretch>
-                </sizepolicy>
-               </property>
-               <property name="minimumSize">
-                <size>
-                 <width>40</width>
-                 <height>20</height>
-                </size>
-               </property>
-               <property name="styleSheet">
-                <string notr="true">QDial{
-	background-color: rgb(65, 143, 140);
-	color: rgb(85, 170, 0);
-}
-</string>
-               </property>
-               <property name="maximum">
-                <number>360</number>
-               </property>
-               <property name="notchTarget">
-                <double>0.000000000000000</double>
-               </property>
-              </widget>
-             </item>
              <item row="0" column="0">
               <widget class="QLabel" name="qt_lbl_Position">
                <property name="styleSheet">
@@ -715,6 +647,72 @@ QSlider::handle:horizontal{
                </property>
                <property name="alignment">
                 <set>Qt::AlignCenter</set>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="0">
+              <widget class="QSlider" name="qt_sl_transPos">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+                 <horstretch>0</horstretch>
+                 <verstretch>10</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="minimumSize">
+                <size>
+                 <width>40</width>
+                 <height>20</height>
+                </size>
+               </property>
+               <property name="sizeIncrement">
+                <size>
+                 <width>0</width>
+                 <height>0</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QSlider{
+	background-color: rgb(47, 54, 64);
+}
+QSlider::handle:horizontal{
+	background-color: rgb(56, 173, 169);
+;}</string>
+               </property>
+               <property name="minimum">
+                <number>-250</number>
+               </property>
+               <property name="maximum">
+                <number>250</number>
+               </property>
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="2">
+              <widget class="QSlider" name="qt_sl_rotPos">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QSlider{
+	background-color: rgb(47, 54, 64);
+}
+QSlider::handle:horizontal{
+	background-color: rgb(56, 173, 169);
+;}</string>
+               </property>
+               <property name="minimum">
+                <number>-180</number>
+               </property>
+               <property name="maximum">
+                <number>180</number>
+               </property>
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
                </property>
               </widget>
              </item>
@@ -803,7 +801,7 @@ QPushButton:checked{
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1061</width>
+     <width>855</width>
      <height>28</height>
     </rect>
    </property>
