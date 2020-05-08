@@ -1,6 +1,19 @@
-# camera-slider
-This repository is used for a raspberry pi-based camera-slider
-Development is still ongoing, so further information and a detailed description coming soon!
+# Camera-slider with two stepper motors and a Raspberry Pi 3B+
+**CAUTION:** Development is still ongoing, so further information and a detailed description coming soon.
+If you would like to contribute, just send a pull request!
+
+*********
+
+# General
+This repository provides a comprehensive description of my approach building a camera-slider with a Raspberry Pi 3B+ and NEMA17 stepper motors. One the one hand, it should be a kind of a project documentation for myself, one the other hand it can be seen as a step-by-step guide for others, who are also interested in building a camera-slider like this!
+
+## Used components:
+* Rapsberry Pi 3B+ 
+* 2x NEMA17 - 17HD48002H-22B stepper motor
+* 2x TB660 stepper driver (9-42V)
+* 12V DC Power supply
+
+********
 
 # Implementation
 ## Mechanical development
@@ -9,10 +22,8 @@ Development is still ongoing, so further information and a detailed description 
 ## Electronical development
 ### Wiring
 
-
 ## Software development
 ### Running the stepper motors
-
 
 ## Desktop Application
 ### General
@@ -23,7 +34,11 @@ The actual design of the app were created with the help of Qt Designer. This is 
 
 **pyuic5.exe -x YOURFILENAME.ui -o YOURFILENAME.py**
 
-or you bind the ui file by using the **uic.loadUi-Method** of PyQt5. I tested both ways, but I ended up using the second option (see in [cameraslider_design.py](https://github.com/DennisEder/camera-slider/blob/master/application/cameraslider_gui/cameraslider_design.py) under [cameraslider_gui](https://github.com/DennisEder/camera-slider/tree/master/application/cameraslider_gui)). 
+or you bind the UI-File by using the 
+
+**uic.loadUi-Method of PyQt5.** 
+
+I tested both ways, but I ended up using the second option (see in [cameraslider_design.py](https://github.com/DennisEder/camera-slider/blob/master/application/cameraslider_gui/cameraslider_design.py) under [cameraslider_gui](https://github.com/DennisEder/camera-slider/tree/master/application/cameraslider_gui)). 
 
 ### Structure
 
