@@ -38,7 +38,7 @@ or you bind the UI-File by using the syntax
 
     uic.loadUi(path + r'\YOURFILENAME.ui', self)
 
-I tested both ways, but I ended up using the second option (see in [cameraslider_design.py](https://github.com/DennisEder/camera-slider/blob/master/application/cameraslider_gui/cameraslider_design.py) under [cameraslider_gui](https://github.com/DennisEder/camera-slider/tree/master/application/cameraslider_gui)). 
+I tested both ways, but ended up using the second option (see in [cameraslider_design.py](https://github.com/DennisEder/camera-slider/blob/master/application/cameraslider_gui/cameraslider_design.py) under [cameraslider_gui](https://github.com/DennisEder/camera-slider/tree/master/application/cameraslider_gui)). 
 
 ### Structure
 
