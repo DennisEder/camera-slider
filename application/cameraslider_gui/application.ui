@@ -557,7 +557,7 @@ background-color: rgb(65, 143, 140);
                <property name="font">
                 <font>
                  <family>Consolas</family>
-                 <pointsize>14</pointsize>
+                 <pointsize>12</pointsize>
                  <weight>3</weight>
                  <italic>false</italic>
                  <bold>false</bold>
@@ -565,7 +565,7 @@ background-color: rgb(65, 143, 140);
                </property>
                <property name="styleSheet">
                 <string notr="true">QWidget{	
-	font: 25 14pt &quot;Consolas&quot;;
+	font: 25 12pt &quot;Consolas&quot;;
 	color: rgb(175, 175, 175);
 	background-color: rgb(47, 54, 64);
 }</string>
@@ -594,7 +594,7 @@ background-color: rgb(65, 143, 140);
                </property>
                <property name="styleSheet">
                 <string notr="true">QWidget{	
-	font: 25 14pt &quot;Consolas&quot;;
+	font: 25 12pt &quot;Consolas&quot;;
 	color: rgb(175, 175, 175);
 	background-color: rgb(47, 54, 64);
 }</string>
@@ -789,6 +789,9 @@ QPushButton:checked{
            </layout>
           </item>
          </layout>
+        </widget>
+        <widget class="QWidget" name="page">
+         <layout class="QGridLayout" name="gridLayout_9"/>
         </widget>
        </widget>
       </item>
